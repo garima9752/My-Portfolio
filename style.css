@@ -37,18 +37,19 @@ nav {
     margin: auto;
 }
 
-.profile-image img {
+.profile-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.profile-img {
     width: 200px;
-
     height: 200px;
-
     border-radius: 50%;
-
     object-fit: cover;
-
     border: 5px solid white;
-
+    display: block;
 }
 
 .intro h3 {
