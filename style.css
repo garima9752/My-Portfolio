@@ -1,0 +1,301 @@
+/* Remove default spacing */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation bar */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #345489;
+    padding: 15px 50px;
+}
+
+#home {
+    background-color: #eaf4ff;
+    padding: 60px 50px;
+}
+
+.hero-container {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 60px;
+
+    max-width: 1000px;
+
+    margin: auto;
+}
+
+.profile-image img {
+
+    width: 200px;
+
+    height: 200px;
+
+    border-radius: 50%;
+
+    object-fit: cover;
+
+    border: 5px solid white;
+
+}
+
+.intro h3 {
+    font-size: 22px;
+    color: #1e293b;
+}
+
+.intro h1 {
+    font-size: 42px;
+    color: #0875e1;
+    margin: 5px 0;
+}
+
+.intro h2 {
+    font-size: 20px;
+    color: #334155;
+}
+
+.intro p {
+    font-size: 16px;
+    color: #475569;
+    line-height: 1.7;
+    margin: 15px 0;
+    max-width: 550px;
+}
+
+.resume-btn {
+
+    display: inline-block;
+
+    background-color: #0875e1;
+
+    color: white;
+
+    padding: 12px 22px;
+
+    text-decoration: none;
+
+    border-radius: 6px;
+
+    font-weight: bold;
+
+}
+
+.resume-btn:hover {
+    background-color: #064fa5;
+}
+
+/* Navigation list */
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+/* Navigation links */
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Hover effect */
+
+nav ul li a:hover {
+    color: #38bdf8;
+}
+
+#about {
+    padding: 60px 50px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 32px;
+    color: #0875e1;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 17px;
+    color: #475569;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: auto;
+}
+
+#education {
+    padding: 60px 50px;
+    background-color: #eaf4ff;
+    text-align: center;
+}
+
+#education h2 {
+    font-size: 32px;
+    color: #0875e1;
+    margin-bottom: 30px;
+}
+
+.education-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.education-card {
+    background-color: white;
+    padding: 25px;
+    width: 280px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+.education-card h3 {
+    color: #1e293b;
+    margin-bottom: 15px;
+}
+
+.education-card p {
+    color: #475569;
+    margin: 10px 0;
+    line-height: 1.5;
+}
+
+#skills {
+    padding: 60px 50px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+#skills h2 {
+    font-size: 32px;
+    color: #0875e1;
+    margin-bottom: 30px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.skill-card {
+    background-color: #eaf4ff;
+    width: 200px;
+    padding: 25px 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.skill-card:hover {
+    transform: translateY(-8px);
+}
+
+.skill-card h3 {
+    color: #0875e1;
+    margin-bottom: 10px;
+}
+
+.skill-card p {
+    color: #475569;
+    line-height: 1.5;
+}
+
+#projects {
+    padding: 60px 50px;
+    background-color: #eaf4ff;
+    text-align: center;
+}
+
+#projects h2 {
+    font-size: 32px;
+    color: #0875e1;
+    margin-bottom: 30px;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.project-card {
+    background-color: white;
+    width: 280px;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+}
+
+.project-card h3 {
+    color: #1e293b;
+    margin-bottom: 15px;
+}
+
+.project-card p {
+    color: #475569;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.project-card span {
+    color: #0875e1;
+    font-weight: bold;
+}
+#contact {
+    padding: 60px 50px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 32px;
+    color: #0875e1;
+    margin-bottom: 20px;
+}
+
+#contact > p {
+    color: #475569;
+    font-size: 17px;
+    margin-bottom: 25px;
+}
+
+.contact-info p {
+    margin: 15px 0;
+    font-size: 17px;
+}
+
+.contact-info a {
+    color: #0875e1;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
